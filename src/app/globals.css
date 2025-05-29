@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --1-color: #fca311;
+  --1-color: #f8e007;
   --2-color: #ff7700;
   --3-color: hwb(29 0% 5%);
-  --4-color: #f8e007;
+  --4-color: #fca311;
   --5-color: #ff101f;
-  --bg-color: #ebebeb; /* Light mode background e5e5e5 */
+  --bg-color: #ebebeb; /*  Light mode background e5e5e5 */
   --text-color: #030027;
   --font-orbitron: var(--font-orbitron);
 }
@@ -19,6 +19,8 @@
 }
 
 body {
+  width: 100%;
+  min-height: 100dvh;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: Arial, Helvetica, sans-serif;

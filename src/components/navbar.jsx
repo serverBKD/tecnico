@@ -2,7 +2,7 @@ import { Orbitron } from "@/fonts/fonts.js"
 
 export default function Navbar() {
   return (
-    <section className="w-full bg-[var(--4-color)] fixed top-0 left-0 z-50 shadow-lg ">
+    <section className="w-full bg-[var(--1-color)] fixed top-0 left-0 z-50 shadow-lg ">
       <nav className="max-2xl:w-full max-w-7xl h-16 px-6 mx-auto flex items-center justify-between text-[var(--text-color)]">
         <div>
           <h1 className={`${Orbitron.className} text-3xl font-bold uppercase`}>
