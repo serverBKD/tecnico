@@ -1,6 +1,9 @@
 {
   "name": "tecnicove",
-  "version": "0.1.0",
+  "description": "Frontend for TecnicoVE, a marketplace for technical services at Venezuela.",
+  "author": "serverBKD",
+  "license": "EULA",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
