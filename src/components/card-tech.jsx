@@ -4,7 +4,7 @@ import { Montserrat, OpenSans } from "@/fonts/fonts.js"
 export default function CardTech() {
   return (
     <section className="md:w-md max-w-xl h-full min-h-96 mx-auto bg-[var(--bg-color)]">
-      <article className="w-full lg:p-2 flex flex-col items-center lg:justify-evenly justify-center rounded-lg overflow-hidden hover:shadow-xl shadow-slate-500/90 border-0 border-[var(--1-color)] ">
+      <article className="w-full lg:p-2 py-6 flex flex-col items-center lg:justify-evenly justify-center rounded-lg overflow-hidden hover:shadow-xl shadow-slate-500/90 border-0 border-[var(--1-color)] ">
         <article className="w-full min-h-48 max-h-min flex flex-col">
           <article className="w-full lg:max-w-64 lg:py-4 flex flex-col lg:flex-row">
             <img
@@ -14,13 +14,13 @@ export default function CardTech() {
             />
             <div>
               <h1
-                className={`${Montserrat.className} text-3xl italic font-semibold uppercase lg:py-4 py-8 pl-2`}
+                className={`${Montserrat.className} text-3xl italic font-semibold uppercase lg:py-4 py-6 pl-2`}
               >
                 provision
               </h1>
             </div>
           </article>
-          <div className="w-full h-full px-2 py-8 lg:text-lg text-md flex flex-col justify-evenly gap-y-4">
+          <article className="w-full h-full px-2 pt-2 pb-4 lg:text-lg text-md flex flex-col justify-evenly gap-y-4">
             <div>
               <p className={`${OpenSans.className} text-justify`}>
                 Instalación, venta y mantenimiento de sistemas de seguridad
@@ -37,7 +37,7 @@ export default function CardTech() {
             </div>
             <div className="w-full px-2 text-center">
               <button
-                className="w-full py-2 text-xl cursor-pointer border-0 rounded-lg uppercase font-semibold hover:bg-[var(--2-color)] ring-0 hover:ring-4 text-[var(--text-color)] transition-colors duration-300 ease-in-out"
+                className="w-full py-2 text-xl cursor-pointer border-0 uppercase font-semibold hover:bg-[var(--1-color)] ring-0 text-[var(--text-color)] transition-colors duration-300 ease-in-out"
                 onClick={() => {
                   alert("fue tan facil")
                 }}
@@ -45,7 +45,7 @@ export default function CardTech() {
                 contactar
               </button>
             </div>
-          </div>
+          </article>
         </article>
         <article className="w-full gap-y-4">
           <div className="max-h-48 p-2 flex justify-between text-lg italic font-semibold text-[var(--5-color)] ">
@@ -54,11 +54,11 @@ export default function CardTech() {
             <div>Cercos</div>
             <div>Control</div>
           </div>
-          <div className="h-fit px-5 flex items-center justify-between">
+          <div className="h-fit px-3 flex items-center justify-between font-semibold">
             <div>
-              <h3 className="text-sm">Valencia</h3>
+              <h3 className="text-md ">Valencia</h3>
             </div>
-            <div className="text-sm">
+            <div className="text-sm italic">
               <small>desde US $</small>15,00
             </div>
           </div>
