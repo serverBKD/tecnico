@@ -48,7 +48,7 @@ export default function CardTech() {
           </article>
         </article>
         <article className="w-full gap-y-4">
-          <div className="max-h-48 p-2 flex justify-between text-lg italic font-semibold text-[var(--5-color)] bg-amber-400">
+          <div className="max-h-48 p-2 flex justify-between text-lg italic font-semibold text-[var(--5-color)] ">
             <div>Alarmas</div>
             <div>CCTV</div>
             <div>Cercos</div>
