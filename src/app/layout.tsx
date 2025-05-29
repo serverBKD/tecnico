@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 import { Montserrat, OpenSans } from "@/fonts/fonts.js"
 import Navbar from "@/components/navbar"
+import BannerWeb from "@/components/banner-web.jsx"
 
 export const metadata: Metadata = {
   title: "tecnico.ve",
@@ -56,6 +57,8 @@ export default function RootLayout({
         className={`${OpenSans.className} ${Montserrat.className} antialiased`}
       >
         <Navbar />
+        <BannerWeb />
+
         {children}
       </body>
     </html>

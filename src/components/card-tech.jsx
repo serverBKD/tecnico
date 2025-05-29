@@ -3,31 +3,31 @@ import { Montserrat, OpenSans } from "@/fonts/fonts.js"
 
 export default function CardTech() {
   return (
-    <section className="md:w-sm max-w-xl h-full min-h-96 bg-[var(--bg-color)]">
-      <article className="w-full p-2 flex flex-col items-center lg:justify-evenly justify-center rounded-lg overflow-hidden hover:shadow-xl shadow-slate-500/90 border-0 border-[var(--1-color)] ">
-        <article className="w-full min-h-48 max-h-min flex flex-col lg:flex-row">
-          <article className="w-full lg:w-1/3 pt-4">
+    <section className="md:w-md max-w-xl h-full min-h-96 mx-auto bg-[var(--bg-color)]">
+      <article className="w-full lg:p-2 flex flex-col items-center lg:justify-evenly justify-center rounded-lg overflow-hidden hover:shadow-xl shadow-slate-500/90 border-0 border-[var(--1-color)] ">
+        <article className="w-full min-h-48 max-h-min flex flex-col">
+          <article className="w-full lg:max-w-64 lg:py-4 flex flex-col lg:flex-row">
             <img
-              src="/avatar/cmba.jpg"
+              src="/img_emp/provision/1_h4TLlisFk7XvtREAsS7C7Q.png"
               alt=""
-              className="w-64 max-h-64 ring-2 rounded-full mx-auto"
+              className="lg:size-16 w-full max-h-64  lg:ring-2 lg:rounded-full lg:mx-auto object-cover"
             />
-          </article>
-          <article className="w-full lg:w-2/3 pl-4 py-12 md:py-2 lg:text-lg text-md flex flex-col justify-evenly gap-y-4 ">
             <div>
               <h1
-                className={`${Montserrat.className} text-3xl italic font-semibold uppercase`}
+                className={`${Montserrat.className} text-3xl italic font-semibold uppercase lg:py-4 py-8 pl-2`}
               >
                 provision
               </h1>
             </div>
+          </article>
+          <div className="w-full h-full px-2 py-8 lg:text-lg text-md flex flex-col justify-evenly gap-y-4">
             <div>
-              <p className={`${OpenSans.className} text-sm text-pretty`}>
+              <p className={`${OpenSans.className} text-justify`}>
                 Instalación, venta y mantenimiento de sistemas de seguridad
                 electronica con presencia en la region central de Venezuela.
               </p>
             </div>
-            <div className="px-2 text-sm italic font-bold flex justify-between">
+            <div className="text-xl italic font-bold flex justify-between">
               <div>
                 <h2>desde 2.018</h2>
               </div>
@@ -45,7 +45,7 @@ export default function CardTech() {
                 contactar
               </button>
             </div>
-          </article>
+          </div>
         </article>
         <article className="w-full gap-y-4">
           <div className="max-h-48 p-2 flex justify-between text-lg italic font-semibold text-[var(--5-color)] ">
@@ -64,7 +64,7 @@ export default function CardTech() {
           </div>
         </article>
       </article>
-      <article className="w-full px-6  items-center justify-between text-sm hidden lg:flex">
+      <article className="w-full px-6 items-center justify-between text-sm hidden lg:flex border-t-1 border-slate-400">
         <div>📉 573</div>
         <article className="px-2 py-1 flex justify-between gap-x-4">
           <div>✍️ 13</div>
